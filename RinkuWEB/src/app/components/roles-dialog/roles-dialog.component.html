@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Añadir nuevo rol</h2>
+<mat-dialog-content>
+  <input type="text" name="rol" id="rol" class="form-control" placeholder="Nombre del rol..." [(ngModel)]="inputValue">
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-button color="primary" (click)="onAccept()">Aceptar</button>
+</mat-dialog-actions>
